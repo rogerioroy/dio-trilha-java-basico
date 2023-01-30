@@ -16,10 +16,10 @@ public class ContaTerminal {
 		System.out.println("Por favor, digite o número da Conta:");
 		String conta = sc.next();
 		
-		System.out.println("Por favor, digite o valor do depósito inicial:");
-		Double valor = sc.nextDouble();
-
-		System.out.println("Olá "+nome+", Obrigado por criar uma conta em nosso banco, sua agencia é "+agencia+", Conta "+conta+" e seu saldo "+valor+" Já esta disponível");
+		
+		
+		
+		System.out.println("Olá "+nome+", Obrigado por criar uma conta em nosso banco, sua agencia é "+agencia+", Conta "+conta+" e seu saldo ");
 		
 		sc.close();
 	}
